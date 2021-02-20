@@ -1,8 +1,3 @@
- 
- [<img align="right" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/instagram.svg" width="50" height="50" />](http://www.instagram.com/gajjartejas)
- [<img align="right" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/twitter.svg" width="50" height="50" />](http://www.twitter.com/gajjartejas)
- [<img align="right" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/reddit.svg" width="50" height="50" />](http://www.reddit.com/u/gajjartejas)
-
 # ASUS-B85M-G-Hackintosh (Haswell)
 Goal of this repo is to run Mac os on ASUS B85M-G.
 
@@ -17,9 +12,9 @@ Type | Spec | Status | Link
 ---------|:---------:|----------:|----------
 Motherboard		| ASUS B85M-G (mATX Form Factor) | Working | -
 BIOS Version	| B85M-G BIOS 3602 | Working | -
-CPU				| Intel® Core™ i3-4160 Processor | Working | -
+CPU				| Intel® Core™ i5-4460 Processor | Working | -
 Chipset			| Intel® B85 | Working | -
-Graphics		| Intel® HD Graphics 4400 | Working | [Guide](https://www.tonymacx86.com/threads/guide-intel-framebuffer-patching-using-whatevergreen.256490/)
+Graphics		| Intel® HD Graphics 4600 | Working |-
 Audio			| Realtek® ALC887-VD2 8-Channel High Definition Audio CODEC | Working | [Guide](https://github.com/acidanthera/AppleALC/wiki/Installation-and-usage)
 Ethernet		| Realtek® 8111G, 1 x Gigabit LAN Controller(s) | Working | -
 Keyboard		| - | Working | -
@@ -110,6 +105,8 @@ OpenCore Guide | N/A
 ### Telegram Channel
  - [Hackintosh Community Group](https://t.me/indianhackintosh)
  - [Hackintosh Channel](https://t.me/hackintoshcommunity)
+### Taiwan Hackintosh FaceBook Societies
+ - [我和我的黑蘋果](https://www.facebook.com/groups/ihackintosh)
 
 
 ### Credits
@@ -123,5 +120,8 @@ OpenCore Guide | N/A
  - [Moh_Ameen](https://github.com/ameenjuz) for some patches.
  - [al3xtjames](https://github.com/al3xtjames) for clover-theme-oss theme.
  - [ImmersiveX](https://github.com/ImmersiveX) for clover-theme-minimal-dark theme.
+ - [Fang Hsin Wen](https://www.facebook.com/hsinwen.fang.1/) for Compile this OpenCore EFI.
  - And anyone else that helped to develop and improve hackintoshing.
- - me
+- me
+
+###### tags: `Hackintosh`
