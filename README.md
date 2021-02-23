@@ -14,7 +14,7 @@ Motherboard		| ASUS B85M-G (mATX Form Factor) | Working | -
 BIOS Version	| B85M-G BIOS 3602 | Working | -
 CPU				| Intel® Core™ i5-4460 Processor | Working | -
 Chipset			| Intel® B85 | Working | -
-Graphics		| Intel® HD Graphics 4600 | Working |-
+Graphics		| Intel® HD Graphics 4600 (DVI) | Working |-
 Audio			| Realtek® ALC887-VD2 8-Channel High Definition Audio CODEC | Working | [Guide](https://github.com/acidanthera/AppleALC/wiki/Installation-and-usage)
 Ethernet		| Realtek® 8111G, 1 x Gigabit LAN Controller(s) | Working | -
 Keyboard		| - | Working | -
@@ -22,11 +22,13 @@ LAN		        | Realtek® 8111G, 1 x Gigabit LAN Controller(s) | Unknown | -
 
 ## Important Note
 
-### Intel HD4400 Graphics
+### Intel HD4600 Graphics
 If you want to enable HD4400 Please enable 
 Kernel -> Add -> Enable ->  `WhateverGreen.kext` 
 
 DeviceProperty -> Add  `PciRoot(0x0)/Pci(0x2,0x0)` or Remove comment `#PciRoot(0x0)/Pci(0x2,0x0)`
+
+BIOS Settings -> iGPU VRAM　please setup 64M
 
 ### Network Card (DW1820A)
 If you want to enable DW1820A Please enable 
